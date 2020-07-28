@@ -1,0 +1,14 @@
+debug:
+  warmDb:
+    rate: cron(* * * * ? *)
+    enabled: true
+
+development:
+  warmDb:
+    rate: cron(* * * * ? *)
+    enabled: true
+
+production:
+  warmDb:
+    rate: cron(* * * * ? *)
+    enabled: true
